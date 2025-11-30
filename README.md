@@ -1,6 +1,38 @@
-# A Survey of LLM Surveys
+[![data under CC BY 4.0 license](https://img.shields.io/badge/data%20license-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/) <a href="https://doi.org/10.5281/zenodo.17542778"> <img align="right" src="https://zenodo.org/badge/DOI/10.5281/zenodo.17542778.svg" alt="DOI: 10.5281/zenodo.17542778"> </a>
+
+# Large Language Models: A Survey of Surveys
+
+This repository accompanies the paper **"Large Language Models: A Survey of Surveys"** by Max Hort, Fernando Vallecillos-Ruiz, and Leon Moonen, currently under review. A [PDF preprint](Preprint-LLM-Survey-of-Surveys.pdf) of the paper is included in this repository.
 
 The field of Large Language Models (LLMs) is rapidly expanding, with new research published daily. As a result, research interest and progress in LLMs have exploded, making it challenging to keep up. To help navigate this vast landscape, this work compiles and categorizes existing survey papers on LLMs. Most of these surveys have been published or posted in the past few years, providing a comprehensive and up-to-date overview of the field. We hope that our compilation can be helpful for researchers and practitioners who want to get a quick understanding of the key topics, trends, and future directions in LLM research.
+
+This repository contains an overview of the data and taxonomy for our study (this file), as well as a BiBTeX [bibliography file](LLM-Survey-of-Surveys.bib). These sources include a total of 984 publications, collected up to August 2025, extending beyond the 424 surveys analyzed in the initial paper ([PDF preprint](Preprint-LLM-Survey-of-Surveys.pdf)).
+
+The data and preprint are distributed under the CC BY 4.0 license.
+
+
+## How to Cite
+
+If you use this work or the accompanying dataset, please cite our paper. You can find the full paper and BibTeX file on Zenodo.
+
+**BibTeX Entry:**
+
+```bibtex
+@misc{hort2025llmsurvey,
+  author       = {Hort, Max and Vallecillos-Ruiz, Fernando and Moonen, Leon},
+  title        = {Large Language Models: A Survey of Surveys},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17542778},
+  url          = {[https://doi.org/10.5281/zenodo.17542778](https://doi.org/10.5281/zenodo.17542778)}
+}
+```
+
+## Acknowledgement
+
+This work is supported by the Research Council of Norway through the secureIT project
+(IKTPLUSS #288787), and by the European Union through the Horizon Europe Marie 
+Skłodowska-Curie Actions (#101151798). 
 
 ## Outline
 
@@ -244,6 +276,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - A Survey on Progress in LLM Alignment from the Perspective of Reward Design (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.02666)
 - Aligning Multimodal LLM with Human Preference: A Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.14504)
 - Evaluating Alignment in Large Language Models: A Review of Methodologies (2025) [↗︎](https://doi.org/10.1007/S43681-024-00637-W)
+- Personalization of Large Language Models: A Survey (2025) [↗︎](https://openreview.net/forum?id=tf6A9EYMo6)
 - A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More (2024) [↗︎](https://doi.org/10.48550/ARXIV.2407.16216)
 - A Survey of Confidence Estimation and Calibration in Large Language Models (2024) [↗︎](https://doi.org/10.18653/V1/2024.NAACL-LONG.366)
 - A Survey on Human Preference Learning for Large Language Models (2024) [↗︎](https://doi.org/10.48550/ARXIV.2406.11191)
@@ -290,6 +323,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 #### Agents<a id="agents"></a>
 - A Survey of Large Language Model Agents for Question Answering (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.19213)
 - A Survey of Large Language Model Empowered Agents for Recommendation and Search: Towards next-Generation Information Retrieval (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.05659)
+- A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax? (2025) [↗︎](https://aclanthology.org/2025.findings-acl.539/)
 - A Survey of LLM-driven AI Agent Communication: Protocols, Security Risks, and Defense Countermeasures (2025) [↗︎](https://doi.org/10.48550/ARXIV.2506.19676)
 - A Survey on (M)LLM-based GUI Agents (2025) [↗︎](https://doi.org/10.48550/ARXIV.2504.13865)
 - A Survey on Large Language Model Based Human-Agent Systems (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.00753)
@@ -388,6 +422,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - Emergent Abilities in Large Language Models: A Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.05788)
 - Exploring Consciousness in Llms: A Systematic Survey of Theories, Implementations, and Frontier Risks (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.19806)
 - Large Language Models for Artificial General Intelligence (AGI): A Survey of Foundational Principles and Approaches (2025) [↗︎](https://doi.org/10.48550/ARXIV.2501.03151)
+- Large Language Models for Planning: A Comprehensive and Systematic Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.19683)
 - Language Model Behavior: A Comprehensive Survey (2024) [↗︎](https://doi.org/10.1162/COLI\_A\_00492)
 - Large Language Models: A Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2402.06196)
 #### Basic<a id="basic"></a>
@@ -439,6 +474,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - Taxonomy, Opportunities, and Challenges of Representation Engineering for Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2502.19649)
 - A Survey of Knowledge Enhanced Pre-Trained Language Models (2024) [↗︎](https://doi.org/10.1109/TKDE.2023.3310002)
 - Adapter-Based Approaches to Knowledge-Enhanced Language Models: A Survey (2024) [↗︎](https://doi.org/10.5220/0013058500003838)
+- Claim Verification in the Age of Large Language Models: A Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2408.14317)
 - Factuality of Large Language Models: A Survey (2024) [↗︎](https://doi.org/10.18653/V1/2024.EMNLP-MAIN.1088)
 - Generative Large Language Models in Automated Fact-Checking: A Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2407.02351)
 - Knowledge Conflicts for Llms: A Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2403.08319)
@@ -539,6 +575,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - A Review of LLM-assisted Ideation (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.00946)
 - A Survey of Personalized Large Language Models: Progress and Future Directions (2025) [↗︎](https://doi.org/10.48550/ARXIV.2502.11528)
 - A Survey on Chatbots and Large Language Models: Testing and Evaluation Techniques (2025) [↗︎](https://doi.org/10.1016/J.NLP.2025.100128)
+- A Survey on Large Language Models in Multimodal Recommender Systems (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.09777)
 - A Survey on LLM-based News Recommender Systems (2025) [↗︎](https://doi.org/10.48550/ARXIV.2502.09797)
 - A Survey on Multi-Turn Interaction Capabilities of Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2501.09959)
 - Beyond Single-Turn: A Survey on Multi-Turn Interactions with Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2504.04717)
@@ -585,8 +622,21 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - Augmented Language Models: A Survey (2023) [↗︎](https://openreview.net/forum?id=jh7wH2AzKK)
 ---
 ### Applications<a id="applications"></a>
+- A Review of LLMs and Their Applications in the Architecture, Engineering and Construction Industry (2025) [↗︎](https://doi.org/10.1007/S10462-025-11241-7)
+- A Survey of Emerging Applications of Large Language Models for Problems in Mechanics, Product Design, and Manufacturing (2025) [↗︎](https://doi.org/10.1016/J.AEI.2024.103066)
+- A Survey of Research in Large Language Models for Electronic Design Automation (2025) [↗︎](https://doi.org/10.1145/3715324)
+- A Survey of Textual Cyber Abuse Detection Using Cutting-Edge Language Models and Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2501.05443)
+- A Survey on Large Language Models for Automated Planning (2025) [↗︎](https://doi.org/10.48550/ARXIV.2502.12435)
+- A Survey on Potentials, Pathways and Challenges of Large Language Models in New-Generation Intelligent Manufacturing (2025) [↗︎](https://doi.org/10.1016/J.RCIM.2024.102883)
+- Harnessing Large Language Models for Disaster Management: A Survey (2025) [↗︎](https://aclanthology.org/2025.findings-acl.750/)
+- Large Language Models for Computer-Aided Design: A Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.08137)
+- Review on Application and Challenges of Large Language Models in Power Grids (2025) [↗︎](https://doi.org/10.1109/ACCESS.2025.3580439)
+- The Role of Large Language Models in UI/UX Design: A Systematic Literature Review (2025) [↗︎](https://doi.org/10.48550/ARXIV.2507.04469)
 - A Survey on Large Language Models for Critical Societal Domains: Finance, Healthcare, and Law (2024) [↗︎](https://doi.org/10.48550/ARXIV.2405.01769)
+- An Overview on Large Language Models across Key Domains: A Systematic Review (2024) [↗︎](https://doi.org/10.1109/METROXRAINE62247.2024.10797032)
 - From Text to Transformation: A Comprehensive Review of Large Language Models' Versatility (2024) [↗︎](https://doi.org/10.48550/ARXIV.2402.16142)
+- Large Language Models (Llms) for Wireless Networks: An Overview from the Prompt Engineering Perspective (2024) [↗︎](https://doi.org/10.48550/ARXIV.2411.04136)
+- Large Language Models in Politics and Democracy: A Comprehensive Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2412.04498)
 - LLMs with Industrial Lens: Deciphering the Challenges and Prospects - A Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2402.14558)
 #### Medical and Health<a id="medical-and-health"></a>
 - Knowledge Fusion in Deep Learning-Based Medical Vision-Language Models: A Review (2026) [↗︎](https://doi.org/10.1016/J.INFFUS.2025.103455)
@@ -597,6 +647,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - A Survey of Large Language Model for Drug Research and Development (2025) [↗︎](https://doi.org/10.1109/ACCESS.2025.3552256)
 - A Survey of Large Language Models in Mental Health Disorder Detection on Social Media (2025) [↗︎](https://doi.org/10.48550/ARXIV.2504.02800)
 - A Survey of Large Language Models in Psychotherapy: Current Landscape and Future Directions (2025) [↗︎](https://aclanthology.org/2025.findings-acl.385/)
+- A Survey of LLM-based Agents in Medicine: How Far Are We from Baymax? (2025) [↗︎](https://aclanthology.org/2025.findings-acl.539/)
 - A Survey of Transformers and Large Language Models for ECG Diagnosis: Advances, Challenges, and Future Directions (2025) [↗︎](https://doi.org/10.1007/S10462-025-11259-X)
 - A Survey on Biomedical Automatic Text Summarization with Large Language Models (2025) [↗︎](https://doi.org/10.1016/J.IPM.2025.104216)
 - A Survey on the Applications of Transfer Learning to Enhance the Performance of Large Language Models in Healthcare Systems (2025) [↗︎](https://doi.org/10.1007/S44163-025-00339-0)
@@ -866,8 +917,11 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 - Large Language Models and Video Games: A Preliminary Scoping Review (2024) [↗︎](https://doi.org/10.1145/3640794.3665582)
 - Procedural Content Generation in Games: A Survey with Insights on Emerging LLM Integration (2024) [↗︎](https://doi.org/10.1609/AIIDE.V20I1.31877)
 #### Telecommunication<a id="telecommunication"></a>
+- DeepSeek-inspired Exploration of RL-based Llms and Synergy with Wireless Networks: A Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.09956)
+- LLM-driven APT Detection for 6G Wireless Networks: A Systematic Review and Taxonomy (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.18846)
 - A Survey on Large Language Models for Communication, Network, and Service Management: Application Insights, Challenges, and Future Directions (2024) [↗︎](https://doi.org/10.48550/ARXIV.2412.19823)
 - Large Language Model (LLM) for Telecommunications: A Comprehensive Survey on Principles, Key Techniques, and Opportunities (2024) [↗︎](https://doi.org/10.48550/ARXIV.2405.10825)
+- Large Language Models Meet Next-Generation Networking Technologies: A Review (2024) [↗︎](https://doi.org/10.3390/FI16100365)
 #### Blockchain<a id="blockchain"></a>
 - Blockchain for Large Language Model Security and Safety: A Holistic Survey (2024) [↗︎](https://doi.org/10.48550/ARXIV.2407.20181)
 - Blockchain Meets Llms: A Living Survey on Bidirectional Integration (2024) [↗︎](https://doi.org/10.48550/ARXIV.2411.16809)
@@ -893,6 +947,7 @@ The field of Large Language Models (LLMs) is rapidly expanding, with new researc
 ### Multimodality<a id="multimodality"></a>
 - Knowledge Fusion in Deep Learning-Based Medical Vision-Language Models: A Review (2026) [↗︎](https://doi.org/10.1016/J.INFFUS.2025.103455)
 - A Survey of Generative Categories and Techniques in Multimodal Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2506.10016)
+- A Survey on Large Language Models in Multimodal Recommender Systems (2025) [↗︎](https://doi.org/10.48550/ARXIV.2505.09777)
 - Connector-s: A Survey of Connectors in Multi-Modal Large Language Models (2025) [↗︎](https://doi.org/10.48550/ARXIV.2502.11453)
 - Distributed Llms and Multimodal Large Language Models: A Survey on Advances, Challenges, and Future Directions (2025) [↗︎](https://doi.org/10.48550/ARXIV.2503.16585)
 - Image, Text, and Speech Data Augmentation Using Multimodal Llms for Deep Learning: A Survey (2025) [↗︎](https://doi.org/10.48550/ARXIV.2501.18648)
